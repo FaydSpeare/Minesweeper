@@ -7,6 +7,10 @@ import java.util.Random;
 
 public class Game extends JPanel implements Runnable, MouseListener {
 
+    public static void main(String[] args){
+        Game game = new Game(50, 30, 40);
+    }
+
     private int SQUARE;
     private Tile[] tiles;
 
